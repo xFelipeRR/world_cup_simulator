@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Chivo:wght@400;700&family=DM+Mono:wght@300;400;500&family=DM+Sans:wght@400;500;700&family=Nunito:wght@300;400;500;600;700;800&family=Red+Hat+Text:wght@300;400;500;600;700&display=swap');
+li {
+    font-family: 'Chivo', sans-serif;
+    font-family: 'DM Mono', monospace;
+    font-family: 'DM Sans', sans-serif;
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Red Hat Text', sans-serif;
+}
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body {
+    background: radial-gradient(circle, rgba(157,12,53,1) 0%, rgba(69,1,24,1) 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.pageHeader {
+    margin-bottom: 30px;
+}
+.pageTitle {
+    font-family: 'Red Hat Text', sans-serif;
+    color: rgb(228, 227, 227);
+    margin-bottom: 0px;
+    background: rgb(56 1 20);
+    text-align: center;
+    padding: 10px;
+    box-shadow: 2px 2px 14px 5px #000000b3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.madeby {
+    font-family: 'Red Hat Text', sans-serif;
+    color: rgb(228, 227, 227);
+}
+.allGroups {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+.group {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    background: rgba(255, 255, 255, 0.7);
+    padding: 0px 1rem 1rem 1rem;
+    border-radius: 0.5rem;
+    width: 200px;
+}
+.teamFlag {
+    margin-right: 10px;
+    width: 20px;
+}
+.groupTitle {
+    font-family: 'DM Sans', sans-serif;
+    width: 80%;
+    font-size: 22px;
+    text-align: center;
+    color: black;
+    background: white;
+    padding: 8px;
+    border-radius: 20px;
+    margin: 15px;
+}
+.groupElements {
+    font-family: 'Red Hat Text', sans-serif;
+    line-height: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.elements {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.btnFaseDeGrupos {
+    background: rgb(56 1 20);
+    font-size: 15px;
+    font-family: 'DM Sans';
+    border-radius: 5px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    margin-top: 20px;
+    border: 1px solid #ffffff36;
+    transition: 0.3s;
+    cursor: pointer;
+    text-decoration: none;
+}
+.btnFaseDeGrupos:hover {
+    transform: scale(1.1);
+}
+.pageTitle {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .btnBack {
+    background: rgb(56 1 20);
+    font-size: 15px;
+    font-family: 'DM Sans';
+    border-radius: 5px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    border: 1px solid #ffffff36;
+    transition: 0.3s;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  .btnBack:hover {
+    background: rgb(90 53 66);
+  }
+  .invisible-span {
+    visibility: hidden;
+  }

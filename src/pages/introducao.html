@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Copa do Mundo 2022</title>
+    <link rel="stylesheet" href="../styles/faseDeGrupos.css">
+</head>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Chivo:wght@400;700&family=DM+Mono:wght@300;400;500&family=DM+Sans:wght@400;500;700&family=Nunito:wght@300;400;500;600;700;800&family=Red+Hat+Text:wght@300;400;500;600;700&display=swap');
+    li {
+        font-family: 'Chivo', sans-serif;
+        font-family: 'DM Mono', monospace;
+        font-family: 'DM Sans', sans-serif;
+        font-family: 'Nunito', sans-serif;
+        font-family: 'Red Hat Text', sans-serif;
+    }
+    .all-container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        line-height: 6;
+        font-family: 'Red Hat Text', sans-serif;
+        color: white;
+    }
+    .main-wrapper {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .apresentation {
+        background: rgba(56, 1, 20, 0.438);
+        padding: 20px;
+        margin-top: 30px;
+        line-height: 2;
+    }
+    span {
+        color: rgb(190, 190, 190);
+    }
+    p {
+        font-weight: 600;
+    }
+    .btnFaseDeGrupos {
+        height: 50px;
+    }
+</style>
+<body onload="">
+    <div class="all-container">
+        <div class="main-wrapper">
+            <img width="130px" src="../assets/qatar_icon.png" alt="">
+        </div>
+        <section class="apresentation">
+            <h2 class="intro-presentation">Projeto Copa do Mundo 2022 - Qatar</h2>
+            <p>Feito por:</p>
+            <span>- Felipe Rangel Ribeiro</span><br>
+            <span>- Roney Vasconcelos</span>
+        </section>
+        <a href="tabelaGrupos.html" class="btnFaseDeGrupos">Tabela de Grupos <img width="30px" src="../assets/right-arrow.svg" alt="Seta para direita"></a>
+        <a onclick="tocar()" class="btnFaseDeGrupos">Entrar no Clima</a>
+    </div>
+    <script>
+        function tocar() {
+            const audio = new Audio('../assets/waka-waka.mp3');
+            audio.play();
+        }
+        
+    </script>
+</body>
+</html>

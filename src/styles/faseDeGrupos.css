@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family=Chivo:wght@400;700&family=DM+Mono:wght@300;400;500&family=DM+Sans:wght@400;500;700&family=Nunito:wght@300;400;500;600;700;800&family=Red+Hat+Text:wght@300;400;500;600;700&display=swap');
+li {
+    font-family: 'Chivo', sans-serif;
+    font-family: 'DM Mono', monospace;
+    font-family: 'DM Sans', sans-serif;
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Red Hat Text', sans-serif;
+}
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body {
+    background: radial-gradient(circle, rgba(157,12,53,1) 0%, rgba(69,1,24,1) 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.all_container {
+    width: 100%;
+}
+.pageHeader {
+    margin-bottom: 30px;
+}
+.pageTitle {
+    font-family: 'Red Hat Text', sans-serif;
+    color: rgb(228, 227, 227);
+    margin-bottom: 0px;
+    background: rgb(56 1 20);
+    text-align: center;
+    padding: 10px;
+    box-shadow: 2px 2px 14px 5px #000000b3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.allTables {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 25px;
+    flex-wrap: wrap;
+    padding: 15px;
+}
+.allTables {
+  position: relative;
+  animation: appear 1s;
+}
+
+@keyframes appear {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+.doubleTables {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    gap: 50px;
+    align-items: flex-start;
+}
+.tableGames {
+    flex: 2;
+}
+.tableClassification {
+    flex: 1;
+}
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 1px solid #343434;
+    text-align: left;
+    padding: 8px;
+  }
+  th {
+    background: rgba(157,12,53,1);
+    color: #ffffffc7;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 1.2rem;
+    text-align: center;
+  }
+  
+  tr {
+    background-color: #fff;
+  }
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+
+  td {
+    font-family: 'Red Hat Text', sans-serif;
+    text-align: center;
+  }
+  .spangames {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  input {
+    width: 50px;
+    height: 25px;
+    border-radius: 20px;
+    border: 1px solid rgba(157,12,53,1);
+    text-align: center;
+    font-family: 'DM Mono', monospace;
+    margin: 5px;
+  }
+  .btnSend {
+    background: rgb(104 8 35);
+    color: white;
+    font-family: 'Red Hat Text', sans-serif;
+    border: 1px solid #ababab2e;
+    padding: 5px 10px 5px 10px;
+    border-radius: 5px;
+    font-size: 15px;
+    
+  }
+  .wrap {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .button {
+    width: 120px;
+    height: 35px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    font-weight: 500;
+    color: #000;
+    background-color: #fff;
+    border: none;
+    border-radius: 45px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+    }
+  
+  .button:hover {
+    background-color: #2EE59D;
+    box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+    color: #fff;
+    transform: translateY(-7px);
+  }
+  .teamFlag {
+    margin: 10px;
+    width: 20px;
+ }
+
+ .groupTitle {
+  background: rgb(90 7 30);
+  color: #ffffffbf;
+  font-weight: bold;
+ }
+ .groupClassification {
+  background: rgb(90 7 30);
+  color: #ffffffbf;
+  font-weight: bold;
+ }
+ .winner-team {
+  border-left: 3px solid gold;
+ }
+ .btnFaseDeGrupos {
+  background: rgb(56 1 20);
+  font-size: 15px;
+  font-family: 'DM Sans';
+  border-radius: 5px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+  margin-top: 20px;
+  border: 1px solid #ffffff36;
+  transition: 0.3s;
+  cursor: pointer;
+  text-decoration: none;
+}
+.btnFaseDeGrupos:hover {
+  background: rgb(80 1 20);
+}
+.pageTitle {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.btnBack {
+  background: rgb(56 1 20);
+  font-size: 15px;
+  font-family: 'DM Sans';
+  border-radius: 5px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+  border: 1px solid #ffffff36;
+  transition: 0.3s;
+  cursor: pointer;
+  text-decoration: none;
+}
+.btnBack:hover {
+  background: rgb(90 53 66);
+}
+.invisible-span {
+  visibility: hidden;
+}

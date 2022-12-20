@@ -1,0 +1,58 @@
+[
+    {
+        "grupo": "A",
+        "selecao1": ["catar.png", "Catar", "CAT"],
+        "selecao2": ["equador.png", "Equador", "EQU"],
+        "selecao3": ["senegal.png", "Senegal", "SEN"],
+        "selecao4": ["holanda.png", "Holanda", "HOL"]
+    },
+    {
+        "grupo": "B",
+        "selecao1": ["inglaterra.png", "Inglaterra", "ING"],
+        "selecao2": ["ira.png", "Irã", "IRA"],
+        "selecao3": ["estados_unidos.png", "Estados Unidos", "EUA"],
+        "selecao4": ["escudo_default.png", "País de Gales/Escócia/Ucrânia", "EUR"]
+    },
+    {
+        "grupo": "C",
+        "selecao1": ["arabia_saudita.png", "Arábia Saudita", "ARA"],
+        "selecao2": ["argentina.png", "Argentina", "ARG"],
+        "selecao3": ["mexico.png", "México", "MEX"],
+        "selecao4": ["polonia.png", "Polônia", "POL"]
+    },
+    {
+        "grupo": "D",
+        "selecao1": ["dinamarca.png", "Dinamarca", "DIN"],
+        "selecao2": ["escudo_default.png", "Emirados Árabes ou Austrália ou Peru", "PL1"],
+        "selecao3": ["franca.png", "França", "FRA"],
+        "selecao4": ["tunisia.png", "Tunísia", "TUN"]
+    },
+    {
+        "grupo": "E",
+        "selecao1": ["alemanha.png", "Alemanha", "ALE"],
+        "selecao2": ["escudo_default.png", "Costa Rica ou Nova Zelândia", "PL2"],
+        "selecao3": ["espanha.png", "Espanha", "ESP"],
+        "selecao4": ["japao.png", "Japão", "JAP"]
+    },
+    {
+        "grupo": "F",
+        "selecao1": ["belgica.png", "Bélgica", "BEL"],
+        "selecao2": ["canada.png", "Canadá", "CAN"],
+        "selecao3": ["croacia.png", "Croácia", "CRO"],
+        "selecao4": ["marrocos.png", "Marrocos", "MAR"]
+    },
+    {
+        "grupo": "G",
+        "selecao1": ["brasil.png", "Brasil", "BRA"],
+        "selecao2": ["camaroes.png", "Camarões", "CAM"],
+        "selecao3": ["servia.png", "Sérvia", "SER"],
+        "selecao4": ["suica.png", "Suíça", "SUI"]
+    },
+    {
+        "grupo": "H",
+        "selecao1": ["coreia_do_sul.png", "Coreia do Sul", "COR"],
+        "selecao2": ["gana.png", "Gana", "GAN"],
+        "selecao3": ["portugal.png", "Portugal", "POR"],
+        "selecao4": ["uruguai.png", "Uruguai", "URU"]
+    }
+]
